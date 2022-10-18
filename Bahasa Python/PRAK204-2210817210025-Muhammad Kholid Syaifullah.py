@@ -1,0 +1,9 @@
+r = input()
+t = input()
+phi = 3.141592
+v = phi * (int(r) * int(r)) * int(t)
+l = 2 * phi * int(r) * (int(r) + int(t))
+k = 2 * phi * int(r)
+print("Volume = %.2f"%(v))
+print("Luas = %.2f"%(l))
+print("Keliling = %.2f"%(k))

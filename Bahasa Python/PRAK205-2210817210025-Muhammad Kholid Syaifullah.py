@@ -1,0 +1,11 @@
+a, b = input().split()
+a = int(a)
+b = int(b)
+al = ((b * b) - (a * a)) ** (1/2)
+t = a
+k = a + b + al
+l = al * t / 2
+print("Alas = %d cm"%al)
+print("Tinggi = %d cm"%t)
+print("Keliling = %d cm"%k)
+print("Luas = %d cm^2"%l)
